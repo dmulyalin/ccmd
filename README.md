@@ -1,4 +1,4 @@
-# CCMD Concurrent Command to Multiple Destinations
+# CCMD - Concurrent Command to Multiple Destinations
 Tool to run command against multiple destinations (IP or Domain Name) and display results in nice format. 
 
 ## Example Usage
