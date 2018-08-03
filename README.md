@@ -1,9 +1,8 @@
 # CCMD Concurrent Command to Multiple Destinations
-
-Tool to issue command for multiple destinations (IP or Domain Name). 
+Tool to run command against multiple destinations (IP or Domain Name) and display results in nice format. 
 
 # Example Usage
-Issue ping command for n hostsin parralel, display and save log results.
+Issue ping command for n hosts in parralel, display and save log results.
 
 # Python Version.
 Only Python 3.x supported
