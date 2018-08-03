@@ -3,7 +3,7 @@ Tool to run command against multiple destinations (IP or Domain Name) and displa
 
 ## Example Usage
 Issue ping command for n hosts in parralel, display and save log results.
-![](ccmd/winExample.jpg)
+<img src="winExample.jpg">
 
 ## Python Version.
 Only Python 3.x supported
