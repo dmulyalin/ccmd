@@ -6,7 +6,7 @@ Issue ping command for multiple hosts in devices/txt file in parralel and displa
 C:\>python ccmd.py
 <img src="winExample.jpg">
 
-Warning: for Windows script runs clear screen (ctrt+L) to print new results to screen.
+Warning: for Windows script runs clear screen (cls) to print new results to terminal.
 
 ## Python Version.
 Only Python 3.x supported
