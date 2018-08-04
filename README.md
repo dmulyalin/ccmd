@@ -14,7 +14,7 @@ By default detailed logs saved into ./LOG/{ctime}/ directory.
 '-b' Int. Length of probe history bar. Default 60.  
 '-i' Int. Minimum interval between probes in ms. Default 1000ms. Previous probe must finish prior for next probe to be sent.  
 '-w' Int. Probe timout interval in ms. Default 1000ms. For ping and traceroute used as timout value.  
-'-t' Int. Number of simulteneous probes (threads) to run. Default 80.  
+'-t' Int. Number of maximum simulteneous probes (threads) to run. Default 80.  
 '-p' String. Prefix used to form log sub directory name.  
 '-C' Command to run. Default - ping.  
 '-s' Location of source file with IP/Names. Default - ./devices.txt'.  
