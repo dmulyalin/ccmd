@@ -185,7 +185,7 @@ def startThreads(devices, numberOfThreads):
 			
 		probesReverseCounter -= 1
 		
-		#calculate time spent running above threads/probes, if spent les than PROBEINTERVAL than slip time remaining:
+		#calculate time spent running above threads/probes, if spent less than PROBEINTERVAL than slip time remaining:
 		TimeElapsed = round(time.time() - StartTime, 4)
 		if PROBEINTERVAL/1000 > TimeElapsed:
 			TimeToSleep = PROBEINTERVAL/1000 - TimeElapsed
