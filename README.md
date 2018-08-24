@@ -1,13 +1,16 @@
-# CCMD - Concurrent Command to Multiple Destinations
-Tool to run command against multiple destinations (IP or Domain Name) and display results in nice format. 
+# CCMD
+Tool to run command against multiple destinations (IP or Domain Name) and display results in nice format and save them automatically. 
 
 ## Example Usage
-Issue ping command for multiple hosts in devices.txt file in parralel and display results.
+Issue ping command for multiple hosts in devices.txt file in parralel and display results:
 
 C:\>python3 ccmd.py
 <img src="winExample.jpg">  
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
 By default detailed logs saved into ./LOG/{ctime}/ directory.  
+
+To run traceroute one time against destinations in devices.txt:
+C:\>python3 ccmd.py -c 1 -T
 
 ### Run Options
 '-c' Int. Number of probes to run. Default 100.  
