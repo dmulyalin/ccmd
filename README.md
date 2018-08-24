@@ -7,9 +7,9 @@ Issue ping command for multiple hosts in devices.txt file in parralel and displa
 C:\>python3 ccmd.py
 <img src="winExample.jpg">  
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
-By default detailed logs saved into ./LOG/{ctime}/ directory.  
+By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
 
-To run one traceroute probe in parralel against multiple destinations in devices.txt:  
+To run one traceroute probe in parallel against multiple destinations in devices.txt:  
 C:\>python3 ccmd.py -c 1 -T
 
 ### Run Options
@@ -24,7 +24,7 @@ C:\>python3 ccmd.py -c 1 -T
 '-T' If present, run traceroute command instead of ping.  
 
 ## Python Version.
-Only Python 3.x supported
+Only Python 3.x supported. Script uses standart python libraries such as os, copy, subprocess, threading etc.
 
 ## Supported OS.
-So far tested on Windows 7,10 and Linux CentOS only.
+So far tested on Windows 7,10 and Linux CentOS only, but probably will work well with most linux distributions.
