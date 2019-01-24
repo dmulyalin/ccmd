@@ -26,7 +26,7 @@ optional arguments:
   -h, --help          show this help message and exit  
   -c PROBECOUNT       Number of probes to run, default - 100  
   -b BARLEN           Length of probe history bar, default - 60  
-  -i PROBEINTERVAL    Interval between probes in ms, default - 1000ms 
+  -i PROBEINTERVAL    Interval between probes in ms, default - 1000ms  
   -w PROBETIMEOUT     Probe timout interval in ms, default - 1000ms  
   -t NUMBEROFTHREADS  Number of simulteneous probe threads, default - 80  
   -p LOGSUBDIRPREFIX  String prefix for logs directory name  
