@@ -13,12 +13,7 @@ To run one traceroute probe in parallel against multiple destinations in devices
 C:\>python3 ccmd.py -c 1 -T
 
 ### Run Options
-C:\>python ccmd.py -h  
-usage: ccmd.py [-h] [-c PROBECOUNT] [-b BARLEN] [-i PROBEINTERVAL]  
-               [-w PROBETIMEOUT] [-t NUMBEROFTHREADS] [-p LOGSUBDIRPREFIX]  
-               [-C USERCOMMAND] [-s SRCFILE] [-ts TARGETS] [-T] [-P] [-D]  
-               [-DS DNSSRV] [-S] [-v]  
-  
+C:\>python ccmd.py -h   
 Concurrent Command to Multiple Destinations - run commands against targets in  
 semi-parallel fashion.  
   
