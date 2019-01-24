@@ -9,7 +9,7 @@ C:\>python3 ccmd.py
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
 By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
 
-To run one traceroute probe in parallel against multiple destinations in devices.txt:  
+To run one traceroute probe in parallel against multiple destinations in targets.txt:  
 C:\>python3 ccmd.py -c 1 -T
 
 ### Run Options
