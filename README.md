@@ -39,4 +39,4 @@ optional arguments:
 Only Python 3.x. Script uses standart python libraries such as os, copy, subprocess, threading etc.
 
 ## Supported OS.
-So far tested on Windows 7,10 and Linux Ubuntu/CentOS only.
+Tested with Windows 7,10 and Ubuntu/CentOS.
