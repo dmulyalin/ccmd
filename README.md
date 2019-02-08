@@ -2,9 +2,9 @@
 Tool to run command against multiple destinations (IP or Domain Name) and display results in nice format and save them automatically. 
 
 ## Example Usage
-Issue ping command for multiple hosts in devices.txt file in parralel displaying results:
+Issue ping command for multiple hosts in targets.txt file in parralel displaying results:
 
-C:\>python3 ccmd.py
+C:\>ccmd -c 15 -b 10 -D
 <img src="winSampleRun.gif">  
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
 By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
