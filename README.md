@@ -5,7 +5,7 @@ Tool to run command against multiple destinations (IP or Domain Name) and displa
 Issue ping command for multiple hosts in devices.txt file in parralel displaying results:
 
 C:\>python3 ccmd.py
-<img src="winExample.jpg">  
+<img src="winSampleRun.gif">  
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
 By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
 
