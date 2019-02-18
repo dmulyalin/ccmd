@@ -10,7 +10,7 @@ Warning: for Windows script runs clear screen (cls) to print new results to term
 By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
   
 targets.txt content:  
-#target, descriptuion, command  
+#target, description, command  
 8.8.8.8  
 1.1.1.1  
 8.8.4.4, google DNS, ping -n 1 -w 500 {target}  
