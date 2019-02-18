@@ -14,7 +14,7 @@ targets.txt content:
 1.1.1.1  
 8.8.4.4, google DNS, ping -n 1 -w 500 {target}  
 192.168.1.0/29, my subnet  
-bbc.com, thisis bbc news site  
+bbc.com, this is bbc news site  
 Google.com  
 Youtube.com  
   
