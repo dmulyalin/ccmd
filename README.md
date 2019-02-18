@@ -8,6 +8,16 @@ C:\>ccmd -c 15 -b 10 -D
 <img src="winSampleRun.gif">  
 Warning: for Windows script runs clear screen (cls) to print new results to terminal.  
 By default detailed and summary logs saved into ./LOG/{ctime}/ directory.  
+  
+targets.txt content:  
+8.8.8.8  
+1.1.1.1  
+8.8.4.4, google DNS, ping -n 1 -w 500 {target}  
+192.168.1.0/29, my subnet  
+bbc.com, thisis bbc news site  
+Google.com  
+Youtube.com  
+  
 
 To run one traceroute probe in parallel against multiple destinations in targets.txt:  
 C:\>python3 ccmd.py -c 1 -T
